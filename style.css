@@ -1,0 +1,312 @@
+
+body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+}
+
+/* Estilos de la barra de navegación */
+nav {
+    background-color: rgb(29, 48, 63);
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+
+.logo2{
+    height: 20px;
+    padding: 5px;
+    margin: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    float: right;
+    margin-right: 20px;
+
+
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 50px;
+    margin: 0.5px;
+
+}
+
+nav ul li a {
+    display: block;
+    color: rgb(169, 172, 172);
+    text-align: center;
+    padding: 7px 13px;
+    text-decoration: none;
+    font-size:14px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    
+}
+
+nav ul li a:hover {
+    background-color: rgb(13, 85, 90);
+    transition: .5s;
+}
+
+
+.checkbnt{
+    font-size: 30px;
+    color:rgb(169, 172, 172);
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check{
+    display: none;
+}
+
+
+
+
+
+/* Estilos del encabezado */
+header {
+    text-align: center;
+    padding: 44px 0;
+    background-image: url("portada.jpeg");
+    height: 440px;
+    object-position: center; /* Centra la imagen horizontalmente */
+    display: block;
+    background-repeat: no-repeat; /* Evita que la imagen de fondo se repita */
+    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el encabezado */
+    /* Otros estilos para el encabezado */
+    
+    
+}
+
+
+
+header h1 {
+    font-size: 60px;
+    color: rgb(197, 250, 252);
+    text-shadow: 5px 4px 5px rgb(13, 34, 30);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+/* Estilos del contenido principal */
+main {
+    padding: 20px;
+    background-color: rgb(169, 172, 172);    
+}
+
+
+
+
+
+/*Estilo de inicio*/
+#Inicio{
+    
+    padding: 10px;
+    height: 500px auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(29, 48, 63);
+    font-size: 18px;
+    
+
+
+   p{
+    text-align: justify;
+    padding: 10px
+   }
+
+    .cuadro {
+        display: flex;
+        
+    
+    }
+    
+    .cuadro img {
+        max-width: 100%;
+        width: 200px;
+        height: auto; 
+        margin-right: 15px;
+        padding: 20px;
+        border-radius: 50px;
+        
+    }
+    
+}
+
+
+
+
+
+
+/*guías de cuidado*/
+main #cuidado{
+    background-color: rgb(13, 85, 90);
+    margin: 0;
+    padding: 20px;
+    color:rgb(169, 172, 172) ;
+    text-align: justify;
+}
+
+/*Decoracion de la seccion productos*/
+main #productos {
+    padding: 20px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+main #productos h2 {
+    text-align: left;
+    margin-bottom: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(29, 48, 63);
+}
+
+.productos-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.producto {
+    margin-bottom: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(29, 48, 63);
+    text-align: justify;
+    width: 33.33%; /* Cada producto ocupa un tercio del espacio disponible */
+    padding: 10px;
+}
+
+.producto h3 {
+    margin-top: 0;
+    text-align: center;
+}
+
+.producto img {
+    max-width: 100%;
+    height: 200px;
+    margin-bottom: 10px;
+    box-shadow: 2px 2px 4px 0 rgba(20, 20, 20, 0.3);
+    border-radius: 100px;
+   
+}
+
+
+
+
+
+
+
+
+
+
+/*Contacto diseño*/
+
+footer{
+    width: 100%;
+    background-color:rgb(29, 48, 63) ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:rgb(169, 172, 172) ;
+
+    .pie-pagina{
+        width: 100%;
+        max-width: 1200px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-gap: 50px;
+        padding: 45px 0px;
+    
+    }
+
+    .box figure{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .box figure img{
+        width: 250px;
+
+    }
+    
+    .box h2{
+        font-size: 18px;
+        text-transform: uppercase;
+    }
+
+
+    .box p{
+        text-align: justify;
+    }
+
+
+    .redes-sociales a{
+        display: inline-block;
+        width: 35px;
+        height: 20px;
+        line-height: 45px;
+        margin-right: 10px;
+    
+    }
+
+    .redes-sociales a img{
+        width: 45px;
+    }
+
+}
+
+
+.contacto .derechos{
+    padding: 15px 10px;
+    text-align: center;
+}
+
+
+section img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+
+
+/* Media Queries para dispositivos de diferentes tamaños */
+@media only screen and (max-width: 768px) {
+    nav ul li {
+        float: none;
+        display: inline-block;
+    }
+
+    nav ul {
+        text-align: center;
+    }
+
+    nav ul li a {
+        display: block;
+    }
+
+    header {
+        padding: 30px 0;
+    }
+
+    header h1 {
+        font-size: 28px;
+    }
+
+    main {
+        padding: 10px;
+    }
+}
